@@ -1,0 +1,36 @@
+div .container {
+    height: 50vh;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        font-size: 30px;
+        padding: 0;
+    }
+
+    h3 {
+        font-size: 30px;
+        padding: 0;
+    }
+
+
+    & > button {
+        width: 160px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 30px;
+        outline: none;
+        border: 2px solid white;
+        background-color: #6104b8;
+        color: white;
+        transition: all 0.5s ease;
+
+        &:active {
+            color: #6104b8;
+            background-color: white;
+        }
+    }
+}

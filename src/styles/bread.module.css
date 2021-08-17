@@ -1,0 +1,84 @@
+div .container {
+  height: calc(50vh - 20px);
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  padding: 0px;
+}
+
+div .container > p {
+  padding: 0px;
+  margin: 10px;
+  font-size: 23px;
+}
+
+div .container > ul {
+  height: 60%;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div .container > button {
+  width: 37%;
+  height: 58px;
+  border-radius: 30px;
+  font-size: 20px;
+  outline: none;
+  border: 2px solid white;
+  background-color: #6104b8;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+div .container > button:active {
+  color: #6104b8;
+  background-color: white;
+}
+
+@media screen and (min-width: 650px) {
+  div .container > p {
+    font-size: 35px;
+    margin-bottom: 4px;
+  }
+  div .container > ul {
+    margin-top: 0px;
+    list-style: none;
+    font-size: 24px;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  div .container > button {
+    width: 170px;
+    height: 65px;
+  }
+}
+/*# sourceMappingURL=bread.module.css.map */

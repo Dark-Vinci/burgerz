@@ -1,0 +1,48 @@
+div .container {
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+
+    & > div {
+        padding: 10px;
+        width: 80%;
+        border-radius: 30px;
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: #8f15f4;
+        box-shadow: -1px 1px 5px white;
+
+            button {
+                width: 120px;
+                height: 50px;
+                border-radius: 30px;
+                font-size: 20px;
+                outline: none;
+                border: 2px solid white;
+                background-color: #6104b8;
+                color: white;
+                transition: all 0.5s ease;
+
+                &:active {
+                    color: #6104b8;
+                    background-color: white;
+                }
+            }
+    }
+}
+
+@media screen and (min-width: 650px) {
+    div .container {
+        & > div {
+            width: 520px;
+        }
+    }
+}

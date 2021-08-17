@@ -1,0 +1,45 @@
+div .container {
+  height: 50vh;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div .container p {
+  font-size: 30px;
+  padding: 0;
+}
+
+div .container h3 {
+  font-size: 30px;
+  padding: 0;
+}
+
+div .container > button {
+  width: 160px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 30px;
+  outline: none;
+  border: 2px solid white;
+  background-color: #6104b8;
+  color: white;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+div .container > button:active {
+  color: #6104b8;
+  background-color: white;
+}
+/*# sourceMappingURL=home.module.css.map */
