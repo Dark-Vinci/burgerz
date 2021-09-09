@@ -24,8 +24,8 @@ function Bread () {
     const breadClickHandler = (type) => {
         setBreadType(type);
         setClicked(true);
-        console.log(clicked);
-        console.log(breadType);
+        // console.log(clicked);
+        // console.log(breadType);
     }
 
     return (

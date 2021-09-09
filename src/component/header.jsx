@@ -8,9 +8,10 @@ function Header () {
             className = { classes.container }
             animate = {{ y: 0 }}
             initial = {{ y: '-100vh' }}
-            transition = {{ delay: 0.3, type: 'spring' }}
+            transition = {{ type: 'spring' }}
+            style={{ fontFamily: 'Quicksand' }}
         >
-            <div>Burger mine...</div>
+            <div style={{ fontFamily: 'Quicksand' }}>Burger mine...</div>
             <p>A mine filled with precious menirals <strong>BURGERS</strong></p>
         </motion.div>
     );

@@ -8,7 +8,7 @@ function Footer () {
             className = { classes.container }
             animate = {{ y: 0 }}
             initial = {{ y: '100vh' }}
-            transition = {{ delay: 0.3, type: 'spring' }}
+            transition = {{ delay: 1, type: 'spring' }}
         >
             <div>Made with love <i 
                 style = {{ color: 'red', fontSize: '20px' }}
