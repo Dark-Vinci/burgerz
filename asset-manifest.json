@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/burgerz/static/css/main.798017cd.chunk.css",
+    "main.js": "/burgerz/static/js/main.c9533cb5.chunk.js",
+    "main.js.map": "/burgerz/static/js/main.c9533cb5.chunk.js.map",
+    "runtime-main.js": "/burgerz/static/js/runtime-main.b3c469fd.js",
+    "runtime-main.js.map": "/burgerz/static/js/runtime-main.b3c469fd.js.map",
+    "static/js/2.90a55186.chunk.js": "/burgerz/static/js/2.90a55186.chunk.js",
+    "static/js/2.90a55186.chunk.js.map": "/burgerz/static/js/2.90a55186.chunk.js.map",
+    "static/js/3.43185e43.chunk.js": "/burgerz/static/js/3.43185e43.chunk.js",
+    "static/js/3.43185e43.chunk.js.map": "/burgerz/static/js/3.43185e43.chunk.js.map",
+    "index.html": "/burgerz/index.html",
+    "static/css/main.798017cd.chunk.css.map": "/burgerz/static/css/main.798017cd.chunk.css.map",
+    "static/js/2.90a55186.chunk.js.LICENSE.txt": "/burgerz/static/js/2.90a55186.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/burgerz/static/media/Quicksand-Light.d9866972.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3c469fd.js",
+    "static/js/2.90a55186.chunk.js",
+    "static/css/main.798017cd.chunk.css",
+    "static/js/main.c9533cb5.chunk.js"
+  ]
+}
